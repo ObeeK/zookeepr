@@ -1,6 +1,6 @@
 const { query } = require('express');
 const express = require('express');
-const { animals } = require('./data/animals');
+const { animals } = require('./animals');
 const PORT = process.env.PORT || 3001;
 const app = express();
 
@@ -42,7 +42,7 @@ function filterByQuery(query, animalsArray) {
     return filteredResults;
   }
 
-app.get('./data/animals', (req, res) => {
+app.get('./animals', (req, res) => {
     let results = animals;
     if (req.query) {
       results = filterByQuery(req.query, results);
