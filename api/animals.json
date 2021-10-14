@@ -126,6 +126,24 @@
         "hungry"
       ],
       "id": "12"
+    },
+    {
+      "name": "Jon",
+      "species": "Gorilla",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "anxious"
+      ],
+      "id": "13"
+    },
+    {
+      "name": "asdfjl",
+      "species": "asdflkj",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "14"
     }
   ]
 }
